@@ -20,7 +20,7 @@ stages('Gradle')
       {
       withGradle(gradle: 'Local_Gradle')
         {
-            sh./gradlew build' 
+            sh'./gradlewbuild' 
         }
       }
     }
