@@ -13,16 +13,11 @@ git branch: 'master', url: 'https://github.com/Pankaj-git1/gradle-calculator.git
 }
 }
  
-  stage('Gradle')  
-  {
-   steps
-      {
-      withGradle
-        {
-          sh'./gradlewbuild' 
-        }
-      }
-  }
+  stage("Package") {
+     steps {
+          sh "./gradlew build"
+     }
+}
   
 }    
  
