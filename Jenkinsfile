@@ -17,7 +17,7 @@ git branch: 'master', url: 'https://github.com/Pankaj-git1/gradle-calculator.git
   {
    steps
       {
-      withGradle(Gradle: 'Local_Gradle')
+      withGradle
         {
           sh'./gradlewbuild' 
         }
