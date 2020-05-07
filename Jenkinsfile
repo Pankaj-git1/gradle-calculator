@@ -9,7 +9,7 @@ stages
 {
 steps
 {
-git branch: 'dev', url: 'https://github.com/Pankaj-git1/gradle-calculator.git'
+git branch: 'master', url: 'https://github.com/Pankaj-git1/gradle-calculator.git'
 }
 }
 stages('Gradle')  
@@ -20,7 +20,7 @@ stages('Gradle')
       {
       withGradle
         {
-        sh'./gradlebuild.sh'
+        sh'./gradle build.sh'
         sh ./gradlew clean'
         sh./gradlew assemble' 
         sh./gradlew buil'
