@@ -18,7 +18,7 @@ stages('Gradle')
     {
       steps
       {
-      withGradle(jdk: 'Local_Java',gradle: 'Local_Gradle')
+      withGradle(gradle: 'Local_Gradle')
         {
             sh./gradlew build' 
         }
