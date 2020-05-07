@@ -20,10 +20,7 @@ stages('Gradle')
       {
       withGradle
         {
-        sh'./gradle build.sh'
-        sh ./gradlew clean'
-        sh./gradlew assemble' 
-        sh./gradlew buil'
+            sh./gradlew build'
         }
       }
     }
@@ -32,4 +29,4 @@ stages('Gradle')
   
   
 }
-}
+
