@@ -12,7 +12,7 @@ steps
 git branch: 'master', url: 'https://github.com/Pankaj-git1/gradle-calculator.git'
 }
 }
-stages('Gradle')  
+stage('Gradle')  
   {
   stage
     {
