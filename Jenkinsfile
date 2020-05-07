@@ -7,7 +7,7 @@ stages('SCM checkout')
 {
 steps
 {
-
+git branch: 'dev', url: 'https://github.com/Pankaj-git1/gradle-calculator.git'
 }
 }
 }
