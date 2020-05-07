@@ -5,7 +5,7 @@ pipeline
 agent any
 stages
 {
-  Stage('SCM checkout')
+  stage('SCM checkout')
 {
 steps
 {
@@ -26,7 +26,7 @@ stages('Gradle')
     }
   }
   
-  
+}  
   
 }
 
