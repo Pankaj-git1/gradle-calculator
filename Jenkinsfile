@@ -10,7 +10,7 @@ pipeline {
     // if theres more than 1 with structure "Safety.score", [0] at the end takes the first.
     print Double.parseDouble(rootNode.find{it.name() == "Safety"}.value().find{it.name() == "score"}.value()[0])
 }
-     agent any
+    // agent any
      stages {
           stage("Compile") {
                steps {
