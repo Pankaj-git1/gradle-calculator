@@ -7,9 +7,11 @@ agen any
 	{
 	stage('SCM checkout')
 		{
-		git branch: 'master', url: 'https://github.com/Pankaj-git1/gradle-calculator.git'
+			steps
+			{
+			git branch: 'master', url: 'https://github.com/Pankaj-git1/gradle-calculator.git'
+		        }
 		}
-	}
 	
         stage('compile code')
 		{
@@ -26,5 +28,5 @@ agen any
 
 	
 	
-	{}
+	}
 }
