@@ -2,7 +2,7 @@ currentBuild.display='Gradle_pipeline#'+currentBuild.number
 
 pipeline
 {
-agen any
+agent any
 	stages
 	{
 	stage('SCM checkout')
